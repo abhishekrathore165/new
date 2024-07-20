@@ -59,12 +59,10 @@ export default function Header() {
 
   return (
     <header className="relative z-10 bg-[#F4F4F4]   isolate">
-      <nav className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">
+      <nav className="flex items-center justify-between " aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Dash MicroSystems</span>
-            <img className="w-auto h-8  " src={logo} alt="" />
-          </a>
+         <Image src={logo} alt='logo' className='bg-[linear-gradient(229.42deg,#36FBFF_-20.03%,#5DFF5C_117.33%)] h-[4rem] w-[4rem]' />
+         <p className='bg-black text-white text-center flex items-center px-5 text-[18px] font-extrabold'>DASH Micro SYSTEMS</p>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -134,9 +132,9 @@ export default function Header() {
             Company
           </a>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end space-x-1">
+          <a href="#" className="bg-black px-5 py-5 text-white text-[16px] flex gap-1 font-normal">
+          Get In Touch<span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
