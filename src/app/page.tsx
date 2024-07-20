@@ -134,10 +134,10 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mx-6 bg-white sm:px-20 px-7 py-16">
+          <section className="sm:mx-6 bg-white sm:px-20 px-2 py-16">
             <div className="container mx-auto text-center">
               <h2 className="mb-6 text-left text-2xl  text-black md:text-5xl xl:text-[64px]">CAPABILITIES</h2>
-              <p className="mb-8 text-left font-medium text-[#525252] xl:text-2xl lg:w-[90%] md:w-[100%] ">
+              <p className="mb-8 text-left font-medium text-[#525252] xl:text-2xl w-full lg:w-[90%] md:w-[100%]  text-[10px] ">
                 Clients Trust Us For Our Clarity, Structure, High Performance And Intuitive Functionality Across Every
                 Stage Of The Software Development Process.
               </p>
@@ -168,26 +168,26 @@ export default function Home() {
           </section>
         </div>
         <div className="container mx-auto py-6 bg-[#F4F4F4]">
-          <section className="mx-6 mt-12 sm:px-20 px-7">
+          <section className="sm:mx-6 mt-12 sm:px-20 px-2">
             <div className="mb-5 text-black">
               <h2 className="mb-6 text-left text-2xl  text-black md:text-5xl xl:text-7xl">INDUSTRIES</h2>
-              <p className="mb-8 font-medium text-[#525252] md:w-3/4 xl:text-2xl">
+              <p className="mb-8 font-medium w-full text-[#525252] md:w-3/4 xl:text-2xl">
                 Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
               </p>
-              <div className="w-full rounded-lg bg-white p-12 shadow-lg">
+              <div className="w-full rounded-lg bg-white sm:p-12 p-[2rem] shadow-lg">
                 <div className="flex justify-between">
-                  <h3 className="mb-4 text-xl font-medium">HEALTHCARE</h3>
+                  <h3 className="mb-4 text-xl ml-1 font-medium">HEALTHCARE</h3>
                   <img src={arrowtr.src} className="h-6" />
                 </div>
                 <div className="grid grid-cols-1 gap-10 text-xs md:grid-cols-2 lg:grid-cols-3">
                   <div className="flex items-center justify-between gap-2 border p-4 font-medium">
                     LIFE SCIENCES TOOLS & SERVICES <img src={chevronright.src} className="h-4"></img>
                   </div>
-                  <div className="border p-4 font-medium">HEALTHCARE BOOKING</div>
-                  <div className="border p-4 font-medium">DATA COLLECTION</div>
-                  <div className="border p-4 font-medium">LIFE SCIENCES TOOLS</div>
-                  <div className="border p-4 font-medium">HEALTHCARE INVENTORY & REPORTING</div>
-                  <div className="border p-4 font-medium">TOOLS & SERVICES</div>
+                  <div className="border p-4 w-[100%] font-medium">HEALTHCARE BOOKING</div>
+                  <div className="border p-4 w-[100%] font-medium">DATA COLLECTION</div>
+                  <div className="border p-4 w-[100%] font-medium">LIFE SCIENCES TOOLS</div>
+                  <div className="border p-4 w-[100%] font-medium">HEALTHCARE INVENTORY & REPORTING</div>
+                  <div className="border p-4 w-[100%] font-medium">TOOLS & SERVICES</div>
                 </div>
               </div>
               <div className="mt-8 w-full space-y-3 ">
@@ -265,32 +265,32 @@ export default function Home() {
             </div>
         <div className="container py-1 ">
           
-          <section className='mx-11 py-16 sm:px-20 px-7'>
-            <div className="container text-center">
-              <h2 className="mb-8 text-2xl font-bold text-[#C6C6C6] md:text-4xl xl:text-7xl">No need to wonder.</h2>
+          <section className='sm:mx-11 py-16 sm:px-20 px-2'>
+            <div className="container text-center sm:px-3 px-1">
+              <h2 className="mb-8 text-[25px] font-bold text-[#C6C6C6] md:text-4xl xl:text-7xl">No need to wonder.</h2>
             </div>
-            <h2 className='mb-12 text-xl flex justify-center font-bold text-black md:text-3xl xl:text-7xl'>Working with us is wonderful.</h2>
+            <h2 className='mb-12 text-[17px] flex justify-center font-bold text-black md:text-3xl xl:text-7xl'>Working with us is wonderful.</h2>
 
-            <div className='grid lg:grid-cols-2 space-y-3 mb-[8rem]'>
+            <div className='grid lg:grid-cols-2 space-y-4 mb-[8rem]'>
               <div className='space-y-1' >
                 <h4 className='flex gap-2' ><Image src={right} alt='right' /> The right people</h4>
-                <p className='px-7 xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
+                <p className='sm:px-7 w-full xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
               </div>
               <div className='space-y-1'>
                 <h4 className='flex gap-2'> <Image src={right} alt='right' /> The right people</h4>
-                <p className='px-7 xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
+                <p className='sm:px-7 w-full xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
               </div>
               <div className='space-y-1'>
                 <h4 className='flex gap-2'> <Image src={right} alt='right' /> The right people</h4>
-                <p className='px-7 xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
+                <p className='sm:px-7 w-full xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
               </div>
               <div className='space-y-1'>
                 <h4 className='flex gap-2' > <Image src={right} alt='right' /> The right people</h4>
-                <p className='px-7 xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
+                <p className='sm:px-7 w-full xl:w-[26rem] lg:w-[18rem] text-[16px] text-[#525252]'>Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.</p>
               </div>
             </div>
 
-              <p className='bg-black sm:h-[4rem] sm:w-[10rem] ml-[6rem] mb-[1rem] sm:rotate-6 text-center text-[#E0E0E0] text-[14px] font-normal'><span className='text-[18px] text-white font-semibold mb-[2rem] '>John Doe</span> <br /> web Developer</p>
+              <p className='bg-black sm:h-[4rem] sm:w-[10rem] sm:ml-[6rem] mb-[1rem]  sm:rotate-6 text-center w-full text-[#E0E0E0] text-[14px] font-normal'><span className='text-[18px] text-white font-semibold mb-[2rem] '>John Doe</span> <br /> web Developer</p>
             <div className='flex justify-center' >
               <Image src={team} alt='team' width={643} height={128} className='flex  justify-center' />
             </div>
@@ -303,7 +303,7 @@ export default function Home() {
 
           </section>
 
-          <section className="mx-11 py-16 w-full relative overflow-hidden ">
+          <section className="sm:mx-11  py-16 w-full relative overflow-hidden ">
               <Image src={process} alt='process'  className='absolute opacity-65'  />
               <h1 className="mb-8 text-2xl font-medium text-black md:text-5xl  xl:text-[64px] ">OUR PROCESS</h1>
               <div className="mx-8 mb-16">
@@ -311,9 +311,9 @@ export default function Home() {
                   {' '}
                   <img src={img6.src} className="w-[74px] ml-0" />
                 </div>
-                <div className="">
+                <div className=" w-full">
                   <h1 className="text-md mb-5 text-black sm:text-xl xl:text-3xl">Join exploration call</h1>
-                  <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500 leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide">
+                  <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500  leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide">
                     {' '}
                     Tell us more about your business on a discovery call. We&apos;ll discussteam structure and approch
                     sucess criteria,timescale,budget,and required skill sets to see how we can help.
@@ -351,16 +351,16 @@ export default function Home() {
            
           </section>
 
-          <section className="mb-5 p-5 py-12 mt-[3rem]">
+          <section className="mb-5 sm:p-5 py-12 mt-[3rem]">
             <div className=" space-y-3 text-center mb-[3rem]">
-              <h1 className="text-2xl font-bold text-black md:text-5xl xl:text-[66px]">WHAT OUR CLIENTS SAY?</h1>
+              <h1 className="text-xl font-bold text-black md:text-5xl xl:text-[66px]">WHAT OUR CLIENTS SAY?</h1>
               <p className="font-light text-[#393939] xl:text-2xl xl:w-[923px] mx-auto ">
                 Computools&apos; industry expertise enhances your innovation and improves your customer&apos;s
                 experience.
               </p>
             </div>
 
-            <div className=" md:flex px-[9%] gap-[5rem] ">
+            <div className=" md:flex sm:px-[9%] gap-[5rem] ">
               <div className="p-4 sm:w-[40rem] w-full h-[20rem]">
                 <p className="text-lg font-bold xl:w-[80%] w-full  mb-[3rem] text-gray-500">
                   “<br />
@@ -381,7 +381,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-50 h-50 ">
-                <img src={img10.src} className="border-3  sm:mt-[1rem] mt-[5rem] border border-black" />
+                <img src={img10.src} className="border-3   sm:mt-[5rem] mt-[7rem] border border-black" />
               </div>
             </div>
           </section>
@@ -484,16 +484,16 @@ export default function Home() {
           <Offiespopular />
         </div>
 
-        <footer className="w-full bg-[#F4F4F4] py-6 text-white sm:px-20 px-1">
-          <div className="container flex items-center justify-between">
-            <div className="mt-9 space-y-6 sm:p-9 p-1">
+        <footer className="w-full bg-[#F4F4F4] py-6 text-white sm:px-20 ">
+          <div className="container flex items-center w-full justify-between">
+            <div className="mt-9 space-y-6 sm:p-9 ">
               <button className="lg:w-18 md:w-[20] w-[10rem] mb-2 lg:h-8 bg-black p-2 text-[10px] font-bold  text-white">DASH MICRO SYSTEM</button>
               <div className="space-y-1">
                 <p className="text-xs text-gray-500">Copyright © 2024</p>
                 <p className="text-xs text-gray-500">DASH MICRO SYSTEMS pvt ltd</p>
               </div>
             </div>
-            <div className="mr-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-8 gap-5   text-xs text-gray-500">
+            <div className="sm:mr-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-8 gap-5  text-xs text-gray-500">
               <a href="#" className="hover:underline md:text-[18px] text-[12px]">
                 HOME
               </a>

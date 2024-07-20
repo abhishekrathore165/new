@@ -28,8 +28,8 @@ const responsive = {
 const Offiespopular = () => {
   return (
     <section className="my-12 overflow-x-hidden p-12 text-left  relative ">
-      <Image src={ellip} alt='ellip' className='absolute top-[100px] left-[-5rem] rotate-45'/>
-      <div className='sm:px-20 px-7'>
+      <Image src={ellip} alt='ellip' className='absolute top-[100px] sm:left-[-5rem] left-[-10rem] rotate-45'/>
+      <div className='sm:px-20 px-2'>
     <h2 className="mb-6 text-2xl font-bold text-black md:text-5xl xl:text-7xl">OUR OFFICES</h2>
     <p className="mb-8 text-[#393939] xl:text-2xl md:w-[90%] w-[100%]">
       Computools Provides Software Development Services Worldwide. Get In Touch With One Of Our Experts In Your
