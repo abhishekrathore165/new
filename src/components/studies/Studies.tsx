@@ -8,13 +8,13 @@ interface props {
 }
 const Studies = ({imgurl,title,desc}:props) => {
   return (
-    <div className=" flex md:flex xl:space-x-3 lg:px-3 md:px-2 sm:justify-center right-0   justify-center space-x-2 ">
-      <div  className=" border   bg-[#525252] py-7  ">
-        <div className="mb-2 p-4">
-         <Image src={imgurl} alt='img' width={500} height={400} className='' />
+    <div className=" flex md:flex xl:space-x-3 lg:px-3 md:px-2 sm:justify-center lg:h-[381px]  justify-center space-x-2 ">
+      <div  className=" border  rounded-lg  bg-[#525252] py-3    ">
+        <div className="mb-2 ">
+         <Image src={imgurl} alt='img' width={450} height={400} className='lg:px-2 flex mx-auto ' />
         </div>
-        <div className="mx-5 space-y-2">
-          <h3 className="text- text-left font-semibold text-[#FFFFFF]">{title}</h3>
+        <div className="mx-5 space-y-2  ">
+          <h3 className="text-[26px] text-left font-semibold leading-8 text-[#FFFFFF]">{title}</h3>
           <p className="text-xs font-normal text-[#FFFFFF]">
           {desc}
           </p>

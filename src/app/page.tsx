@@ -55,7 +55,7 @@ export default function Home() {
         <div className="container mx-auto py-6">
           <section className="mx-1 sm:px-20 px-7  ">
             <div className="text-left px-1 ">
-              <h1 className="mb-2 mt-7 lg:text-[64px] sm:text-[45px] lg:w-full text-[25px] font-bold text-black ">
+              <h1 className="mb-2 mt-7 lg:text-[64px] sm:text-[40px] lg:w-full text-[25px] font-bold text-black ">
                 LET&apos;S UNLOCK NEXT
               </h1>
               <h2 className="text-md mb-8 w-full font-medium text-[#525252]  lg:text-[20px] md:text-[17px] sm:text-[15px] text-[14px] xl:text-2xl xl:w-[57rem] lg:w-[48rem] md:w-[40rem] sm:w-[35rem] ">
@@ -81,53 +81,52 @@ export default function Home() {
         <div className="container mx-auto py-6">
           <section id="services" className="mx-1 mt-12 sm:px-20 px-1">
             <h2 className="mb-6 text-left text-2xl  text-black md:text-5xl xl:text-[64px]">Services</h2>
-            <p className="mb-8  text-[#525252] lg:w-[80%] md:w-[100%] xl:text-2xl ">
+            <p className="mb-[4rem]  text-[#525252] lg:w-[80%] md:w-[100%] xl:text-2xl ">
               Clients trust Us From Our Clarity. High Performance And Intuitive Functionality Across Every Stage Of The
               Software Development process
             </p>
 
-            <div className="grid grid-cols-1 gap-10  md:grid-cols-2">
-              <div className="shadow-first h-80 w-full rounded-lg border-t-4 border-black p-6 shadow-lg sm:h-96 xl:w-3/4">
-                <h3 className="text-md mb-4 font-bold text-black md:text-xl sm:text-2xl">DATA AUTOMATION</h3>
-                <div className="span-x-3 space-y-5">
-                  <p className="text-xs text-gray-500  sm:text-base">
+            <div className="grid grid-cols-1 gap-10  xl:grid-cols-2 content-center">
+              <div className="shadow-first mx-auto  md:h-[516px] md:w-[562px] lg:h-[400px]   rounded-lg border-t-4 border-black p-6 shadow-lg sm:h-96 xl:w-3/4">
+                <div className=''>
+                  <h3 className="text-md mb-4 font-semibold  uppercase text-black text-[32px] xl:text-[25px]">DATA AUTOMATION</h3>
+                  <p className="text-[18px]  text-gray-500  sm:text-base">
                     From automation to artificial intelligence, discover a world where quality work is the standard.
                   </p>
-
+                </div>
+                <div className="span-x-3 space-y-5">
                   <div className="flex justify-center ">
                     <Image src={img4} alt='Data Automation' height={300} width={300} />
-
                   </div>
-
                 </div>
               </div>
-              <div className="shadow-first h-80 w-full rounded-lg  p-6 shadow-lg sm:h-96 xl:w-3/4">
-                <h3 className="text-md mb-4 font-bold text-black md:text-xl sm:text-2xl">PRODUCT DESIGN</h3>
-                <p className="text-xs text-gray-500 sm:text-base">
+              <div className="shadow-first mx-auto  md:h-[516px] md:w-[562px] lg:h-[400px] rounded-lg  p-6 shadow-lg sm:h-96 xl:w-3/4">
+                <h3 className="text-md mb-4 font-semibold  uppercase text-black text-[32px] xl:text-[25px]">PRODUCT DESIGN</h3>
+                <p className="text-[18px] text-gray-500 sm:text-base">
                   From automation to artificial intelligence, discover a world where quality work is the standard.
                 </p>
                 <div className="flex justify-center">
                   <img src={img1.src} className="h-52" alt="Product Design" />
                 </div>
               </div>
-              <div className="shadow-first h-80 w-full rounded-lg  p-5 shadow-lg sm:h-96 xl:w-3/4">
+              <div className="shadow-first mx-auto  md:h-[516px] lg:h-[400px] md:w-[562px] rounded-lg  p-5 shadow-lg sm:h-96 xl:w-3/4">
                 <div className="flex justify-center">
-                  {' '}
-
-                  <img src={img3.src} className="h-40 sm:h-44 xl:h-56" alt="Platform and Product Engineering" />
+                  <img src={img3.src} className="h-40 sm:h-44 xl:h-50" alt="Platform and Product Engineering" />
                 </div>
-                <h3 className="text-md mb-4 font-bold md:text-xl  text-black sm:text-2xl">PLATFORM AND PRODUCT ENGINEERING</h3>
-                <p className="text-xs text-gray-500  sm:text-base">
+            
+                <h3 className="text-md mb-4 font-semibold leading-10  uppercase text-black text-[32px] xl:text-[25px]">PLATFORM AND PRODUCT ENGINEERING</h3>
+                <p className="text-[18px] text-gray-500   sm:text-base">
                   From automation to artificial intelligence, discover a world where quality work is the standard.
                 </p>
+            
               </div>
 
-              <div className="shadow-first h-80 w-full rounded-lg border-t-4 border-black p-6 shadow-lg sm:h-96 xl:w-3/4">
+              <div className="shadow-first mx-auto  md:h-[516px] lg:h-[400px] md:w-[562px] rounded-lg border-t-4 border-black p-6 shadow-lg sm:h-96 xl:w-3/4">
                 <div className="flex justify-center">
-                  <img src={img2.src} className="h-40 sm:h-44 xl:h-56" alt="Scalable and Agile Delivery" />
+                  <img src={img2.src} className="h-40 sm:h-44 xl:h-50" alt="Scalable and Agile Delivery" />
                 </div>
-                <h3 className="text-md mb-4 font-bold text-black md:text-xl sm:text-2xl">SCALABLE AND AGILE DELIVERY</h3>
-                <p className="text-xs text-gray-500 sm:text-base">
+                <h3 className="text-md mb-4 font-semibold  uppercase text-black text-[32px] xl:text-[25px]">SCALABLE AND AGILE DELIVERY</h3>
+                <p className="text-[18px] text-gray-500 sm:text-base">
                   From automation to artificial intelligence, discover a world where quality work is the standard.
                 </p>
               </div>
@@ -175,19 +174,19 @@ export default function Home() {
                 Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
               </p>
               <div className="w-full rounded-lg bg-white sm:p-12 p-[2rem] shadow-lg">
-                <div className="flex justify-between">
-                  <h3 className="mb-4 text-xl ml-1 font-medium">HEALTHCARE</h3>
+                <div className="flex justify-between items-center">
+                  <h3 className="mb-4 text-xl ml-1 font-medium flex justify-between items-center">HEALTHCARE</h3>
                   <img src={arrowtr.src} className="h-6" />
                 </div>
-                <div className="grid grid-cols-1 gap-10 text-xs md:grid-cols-2 lg:grid-cols-3">
-                  <div className="flex items-center justify-between gap-2 border p-4 font-medium">
+                <div className="grid grid-cols-1 gap-10 text-xs xl:grid-cols-3 md:grid-cols-2 ">
+                  <div className="flex items-center justify-between gap-2 border h-[77px] lg:w-[318px] w-full p-4 font-medium">
                     LIFE SCIENCES TOOLS & SERVICES <img src={chevronright.src} className="h-4"></img>
                   </div>
-                  <div className="border p-4 w-[100%] font-medium">HEALTHCARE BOOKING</div>
-                  <div className="border p-4 w-[100%] font-medium">DATA COLLECTION</div>
-                  <div className="border p-4 w-[100%] font-medium">LIFE SCIENCES TOOLS</div>
-                  <div className="border p-4 w-[100%] font-medium">HEALTHCARE INVENTORY & REPORTING</div>
-                  <div className="border p-4 w-[100%] font-medium">TOOLS & SERVICES</div>
+                  <div className="border p-4  h-[77px] lg:w-[318px] w-full font-medium">HEALTHCARE BOOKING</div>
+                  <div className="border p-4  h-[77px] lg:w-[318px] w-full font-medium">DATA COLLECTION</div>
+                  <div className="border p-4  h-[77px] lg:w-[318px] w-full font-medium">LIFE SCIENCES TOOLS</div>
+                  <div className="border p-4  h-[77px] lg:w-[318px] w-full font-medium">HEALTHCARE INVENTORY & REPORTING</div>
+                  <div className="border p-4  h-[77px] lg:w-[318px] w-full font-medium">TOOLS & SERVICES</div>
                 </div>
               </div>
               <div className="mt-8 w-full space-y-3 ">
@@ -260,11 +259,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-            <div className='w-full  '> 
-             <StudiesPorpular />
-            </div>
+        <div className='w-full  '>
+          <StudiesPorpular />
+        </div>
         <div className="container py-1 ">
-          
+
           <section className='sm:mx-11 py-16 sm:px-20 px-2'>
             <div className="container text-center sm:px-3 px-1">
               <h2 className="mb-8 text-[25px] font-bold text-[#C6C6C6] md:text-4xl xl:text-7xl">No need to wonder.</h2>
@@ -290,7 +289,7 @@ export default function Home() {
               </div>
             </div>
 
-              <p className='bg-black sm:h-[4rem] sm:w-[10rem] sm:ml-[6rem] mb-[1rem]  sm:rotate-6 text-center w-full text-[#E0E0E0] text-[14px] font-normal'><span className='text-[18px] text-white font-semibold mb-[2rem] '>John Doe</span> <br /> web Developer</p>
+            <p className='bg-black sm:w-[177px] sm:h-[76px] sm:ml-[6rem] mb-[1rem]  sm:rotate-6 text-center flex-col items-center justify-center py-2 w-full text-[#E0E0E0] text-[14px] font-normal'><span className='text-[18px] text-white font-semibold mb-[2rem] '>John Doe</span> <br /> web Developer</p>
             <div className='flex justify-center' >
               <Image src={team} alt='team' width={643} height={128} className='flex  justify-center' />
             </div>
@@ -304,51 +303,51 @@ export default function Home() {
           </section>
 
           <section className="sm:mx-11  py-16 w-full relative overflow-hidden ">
-              <Image src={process} alt='process'  className='absolute opacity-65'  />
-              <h1 className="mb-8 text-2xl font-medium text-black md:text-5xl  xl:text-[64px] ">OUR PROCESS</h1>
-              <div className="mx-8 mb-16">
-                <div className="">
+            <Image src={process} alt='process' className='absolute opacity-65' />
+            <h1 className="mb-8 text-2xl font-medium text-black md:text-5xl  xl:text-[64px] ">OUR PROCESS</h1>
+            <div className="mx-8 mb-16">
+              <div className="">
+                {' '}
+                <img src={img6.src} className="w-[74px] ml-0" />
+              </div>
+              <div className=" w-full">
+                <h1 className="text-md mb-5 text-black sm:text-xl xl:text-3xl">Join exploration call</h1>
+                <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500  leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide">
                   {' '}
-                  <img src={img6.src} className="w-[74px] ml-0" />
-                </div>
-                <div className=" w-full">
-                  <h1 className="text-md mb-5 text-black sm:text-xl xl:text-3xl">Join exploration call</h1>
-                  <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500  leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide">
-                    {' '}
-                    Tell us more about your business on a discovery call. We&apos;ll discussteam structure and approch
-                    sucess criteria,timescale,budget,and required skill sets to see how we can help.
-                  </p>
-                </div>
+                  Tell us more about your business on a discovery call. We&apos;ll discussteam structure and approch
+                  sucess criteria,timescale,budget,and required skill sets to see how we can help.
+                </p>
               </div>
+            </div>
 
-              <div className="mx-8 mb-16">
-                <img src={img7.src} className="w-[74px] ml-0" />
-                <div className="text-left">
-                  <h1 className="text-md  mb-5 text-black sm:text-xl xl:text-3xl">Discuss Solution and team structure</h1>
-                  <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500 leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide ">
-                    In a matter of dats, we will finalize your project specifications,agree on an enagagement model select
-                    and onboard your team.
-                  </p>
-                </div>
+            <div className="mx-8 mb-16">
+              <img src={img7.src} className="w-[74px] ml-0" />
+              <div className="text-left">
+                <h1 className="text-md  mb-5 text-black sm:text-xl xl:text-3xl">Discuss Solution and team structure</h1>
+                <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500 leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide ">
+                  In a matter of dats, we will finalize your project specifications,agree on an enagagement model select
+                  and onboard your team.
+                </p>
               </div>
+            </div>
 
-              <div className="mx-8">
-                <img src={img7.src} className="w-[74px] ml-0" />
-                <div className="text-left">
-                  <h1 className="text-md  mb-5 text-black sm:text-xl xl:text-3xl">Get started and track performance</h1>
-                  <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500 leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide ">
-                    {' '}
-                    Once we agreed on milestones, we&apos;ll immediately get to work. We&apos;ll track progress, report
-                    updates,and continuos adapt to your needs.
-                  </p>
-                </div>
+            <div className="mx-8">
+              <img src={img7.src} className="w-[74px] ml-0" />
+              <div className="text-left">
+                <h1 className="text-md  mb-5 text-black sm:text-xl xl:text-3xl">Get started and track performance</h1>
+                <p className="sm:text-md mb-5 xl-text-xl text-xs text-gray-500 leading-tight lg:w-[747px] md:text-[20px] md:w-[600px] sm:text-[17px] sm:w-[400px] w-full text-[15px] lg:text-[24px] tracking-wide ">
+                  {' '}
+                  Once we agreed on milestones, we&apos;ll immediately get to work. We&apos;ll track progress, report
+                  updates,and continuos adapt to your needs.
+                </p>
               </div>
-              <div className="mx-3 flex p-5">
-                <button className="text-md flex h-14 w-60 items-center justify-center gap-4 bg-black p-2 text-white">
-                  Get in touch <img src={arrowright.src} />
-                </button>
-              </div>
-           
+            </div>
+            <div className="mx-3 flex p-5">
+              <button className="text-md flex h-14 w-60 items-center justify-center gap-4 bg-black p-2 text-white">
+                Get in touch <img src={arrowright.src} />
+              </button>
+            </div>
+
           </section>
 
           <section className="mb-5 sm:p-5 py-12 mt-[3rem]">
@@ -361,8 +360,8 @@ export default function Home() {
             </div>
 
             <div className=" md:flex sm:px-[9%] gap-[5rem] ">
-              <div className="p-4 sm:w-[40rem] w-full h-[20rem]">
-                <p className="text-lg font-bold xl:w-[80%] w-full  mb-[3rem] text-gray-500">
+              <div className="p-4 sm:w-[100%] w-full h-[20rem]">
+                <p className="text-lg font-bold xl:w-[80%] w-full   mb-[3rem] text-gray-500">
                   “<br />
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
                   lectus magna fringilla urna, porttitor rhoncus.
@@ -380,15 +379,15 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="w-50 h-50 ">
-                <img src={img10.src} className="border-3   sm:mt-[5rem] mt-[7rem] border border-black" />
+              <div className="md:w-[537px] md:h-[404px] ">
+                <img src={img10.src} className="border-3 sm:mt-[2rem] mt-[7rem] border border-black" />
               </div>
             </div>
           </section>
 
           <section className="relative flex flex-col items-center">
             <div className="relative z-10 sm:mx-11 mt-12">
-              <div className="lg:h-[600px] md:h-[500px] sm:h-[480px] sm:w-[100%] sm:mt-12 bg-black sm:p-7">
+              <div className="lg:h-[600px] md:h-[500px] sm:h-[480px] py-2 sm:w-[100%] sm:mt-[7rem] bg-black sm:p-7">
                 <div className="mb-12 justify-center space-y-4 text-center">
                   <h1 className="text-2xl font-bold lg:text-5xl sm:mt-4 mt-[2rem] text-white">EXCELLENCE</h1>
                   <p className="text-xs text-center mx-auto text-gray-500 lg:text-xl sm:text-lg text-[1rem] px-7 sm:w-[80%] w-full ">
@@ -486,11 +485,11 @@ export default function Home() {
 
         <footer className="w-full bg-[#F4F4F4] py-6 text-white sm:px-20 ">
           <div className="container flex items-center  w-full justify-between">
-            <div className="mt-9 space-y-6 sm:p-9 ">
-              <button className="lg:w-18 md:w-[20] w-[5rem] mb-2 lg:h-8 bg-black p-2 text-[8px] font-bold   text-white">DASH MICRO SYSTEM</button>
-              <div className="space-y-1">
-                <p className="text-[8px] text-gray-500">Copyright © 2024</p>
-                <p className="text-[8px] text-gray-500">DASH MICRO SYSTEMS pvt ltd</p>
+            <div className="mt-9 space-y-2 sm:p-9  h-[129px] w-[225px] ">
+              <button className="w-[225px] h-[63px] mb-2 lg:h-8 bg-black p-2 text-[14px] font-bold   text-white">DASH MICRO SYSTEM</button>
+              <div className="space-y-1 h-[50px] w-[218px]">
+                <p className=" text-[16px] leading-6 text-[#6F6F6F] font-normal">Copyright © 2024</p>
+                <p className=" text-[15px] leading-6 text-[#6F6F6F] font-normal">DASH MICRO SYSTEMS pvt ltd</p>
               </div>
             </div>
             <div className="sm:mr-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-8 gap-5  text-xs text-gray-500">
@@ -518,8 +517,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mx-9 space-y-3">
-            <hr className="bg-black"></hr>
+          <div className="mx-9 space-y-8">
+            <hr className="bg-black mt-8"></hr>
             <img src={img9.src} />
           </div>
         </footer>

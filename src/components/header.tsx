@@ -59,12 +59,14 @@ export default function Header() {
 
   return (
     <header className="relative z-10 bg-[#F4F4F4]   isolate">
-      <nav className="flex items-center justify-between " aria-label="Global">
+      <nav className="flex items-center justify-between h-[84px]  " aria-label="Global">
         <div className="flex lg:flex-1">
-         <Image src={logo} alt='logo' className='bg-[linear-gradient(229.42deg,#36FBFF_-20.03%,#5DFF5C_117.33%)] h-[4rem] w-[4rem]' />
-         <p className='bg-black text-white text-center flex items-center px-5 text-[18px] font-extrabold'>DASH Micro SYSTEMS</p>
+          <div className='bg-[linear-gradient(229.42deg,#36FBFF_-20.03%,#5DFF5C_117.33%)] w-[108px] h-[84px] flex items-center justify-center'>
+         <Image src={logo} width={38} height={44} alt='logo' className='flex items-center'  />
+          </div>
+         <p className='bg-black uppercase absolute left-[108px] text-white text-center flex items-center w-[277px] h-[84px] justify-center text-[18px] font-extrabold'>DASH Micro SYSTEMS</p>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex xl:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -74,7 +76,7 @@ export default function Header() {
             <Bars3Icon className="w-6 h-6" aria-hidden="true" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <PopoverGroup className=" hidden xl:flex lg:gap-x-12">
           <Popover>
             <PopoverButton className="flex items-center gap-2 text-sm font-semibold leading-6 text-gray-900 gap-x-1">
             SERVICES
@@ -132,13 +134,13 @@ export default function Header() {
             Company
           </a>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end space-x-1">
-          <a href="#" className="bg-black px-5 py-5 text-white text-[16px] flex gap-1 font-normal">
-          Get In Touch<span aria-hidden="true">&rarr;</span>
+        <div className="hidden xl:flex xl:flex-1 lg:justify-end space-x-1">
+          <a href="#" className="bg-black h-[84px] w-[242px] text-white text-[16px] flex justify-center items-center uppercase gap-[8px] font-normal">
+          Get In Touch<span aria-hidden="true" className='h-[24px] w-[24px]'>&rarr;</span>
           </a>
         </div>
       </nav>
-      <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog className=" lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
