@@ -35,7 +35,7 @@ const Offiespopular = () => {
           Computools Provides Software Development Services Worldwide. Get In Touch With One Of Our Experts In Your
           Region.
         </p>
-        <Carousel className='absolute lg:left-[135px] sm:left-[100px] left-[13px]' additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
+        <Carousel className='absolute lg:left-[135px] sm:left-[100px] mx-[3rem]' additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
           {
             officeItems.map((item) => {
               return (
