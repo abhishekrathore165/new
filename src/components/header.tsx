@@ -64,7 +64,7 @@ export default function Header() {
           <div className='bg-[linear-gradient(229.42deg,#36FBFF_-20.03%,#5DFF5C_117.33%)] w-[108px] h-[84px] flex items-center justify-center'>
          <Image src={logo} width={38} height={44} alt='logo' className='flex items-center'  />
           </div>
-         <p className='bg-black uppercase absolute left-[108px] text-white text-center flex items-center w-[277px] h-[84px] justify-center text-[18px] font-extrabold'>DASH Micro SYSTEMS</p>
+         <p className='bg-black uppercase absolute left-[108px] text-white text-center xl:flex items-center hidden w-[277px] h-[84px] justify-center text-[18px] font-extrabold'>DASH Micro SYSTEMS</p>
         </div>
         <div className="flex xl:hidden">
           <button
