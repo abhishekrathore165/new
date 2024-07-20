@@ -27,25 +27,25 @@ const responsive = {
 
 const Offiespopular = () => {
   return (
-    <section className="my-12 overflow-x-hidden p-12 text-left  relative ">
-      <Image src={ellip} alt='ellip' className='absolute top-[100px] sm:left-[-5rem] left-[-10rem] rotate-45'/>
-      <div className='sm:px-20 px-2'>
-    <h2 className="mb-6 text-2xl font-bold text-black md:text-5xl xl:text-7xl">OUR OFFICES</h2>
-    <p className="mb-8 text-[#393939] xl:text-2xl md:w-[90%] w-[100%]">
-      Computools Provides Software Development Services Worldwide. Get In Touch With One Of Our Experts In Your
-      Region.
-    </p>
-    <Carousel additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
-     {
-       officeItems.map((item)=>{
-         return (
-           <Officess key={item.id} state={item.state} city={item.city} phone={item.phone} email={item.email} />
-          )
-        })
-      }
-     </Carousel>
+    <section className="my-12 overflow-x-hidden sm:p-12 p-2 text-left  relative ">
+      <Image src={ellip} alt='ellip' className='absolute top-[100px] sm:left-[-5rem] left-[-10rem] rotate-45' />
+      <div className='sm:px-20 px-2 relative'>
+        <h2 className="mb-6 text-2xl font-bold text-black md:text-5xl xl:text-7xl">OUR OFFICES</h2>
+        <p className="mb-8 text-[#393939] xl:text-2xl md:w-[90%] w-full">
+          Computools Provides Software Development Services Worldwide. Get In Touch With One Of Our Experts In Your
+          Region.
+        </p>
+        <Carousel className='absolute right-0' additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
+          {
+            officeItems.map((item) => {
+              return (
+                <Officess key={item.id} state={item.state} city={item.city} phone={item.phone} email={item.email} />
+              )
+            })
+          }
+        </Carousel>
       </div>
-  </section>
+    </section>
 
   )
 }

@@ -8,10 +8,10 @@ interface props {
 }
 const Studies = ({imgurl,title,desc}:props) => {
   return (
-    <div className=" flex md:flex xl:space-x-3 lg:px-3 md:px-2 sm:justify-center bg-[#525252] justify-center ">
-      <div  className=" border h-[365px] lg:w-[300px]  border-white ">
+    <div className=" flex md:flex xl:space-x-3 lg:px-3 md:px-2 sm:justify-center right-0   justify-center space-x-2 ">
+      <div  className=" border   bg-[#525252] py-7  ">
         <div className="mb-2 p-4">
-         <Image src={imgurl} alt='img' width={497} height={332} />
+         <Image src={imgurl} alt='img' width={500} height={400} className='' />
         </div>
         <div className="mx-5 space-y-2">
           <h3 className="text- text-left font-semibold text-[#FFFFFF]">{title}</h3>

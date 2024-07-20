@@ -30,21 +30,21 @@ const responsive = {
 const StudiesPorpular = () => {
     return (
         <section className="overflow-x-hidden  sm:px-20 px-7 bg-[#262626]">
-            <div className=" py-11">
+            <div className=" lg:py-11 relative">
                 <div className="flex justify-between">
                     <div className="">
-                        <h3 className="mb-1 text-left text-2xl font-bold text-white md:text-5xl xl:text-7xl">CASE STUDIES</h3>
+                        <h3 className="mb-1 text-left text-2xl font-bold text-white md:text-5xl xl:text-7xl mt-4">CASE STUDIES</h3>
                         <p className="mb-8 font-medium text-[#525252] md:w-3/4 xl:text-2xl">
                             Clients trust us for our clarity, structure, high performance and intuitive functionality across
                             every stage.
                         </p>
                     </div>
-                    <div className='flex mb-[5rem] gap-2 '>
+                    <div className='flex mb-[5rem] gap-2 mt-4 '>
                         <Image src={arrowleft} alt='arrow' className='bg-[#E0E0E0] sm:h-[50px] h-[30px] ' />
                         <Image src={arrow} alt='arrow' className='sm:h-[50px] h-[30px] ' />
                     </div>
                 </div>
-                <Carousel className='xl:w-[1296px] lg:w-[980px] md:w-[800px] mr-[2px] ' additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
+                <Carousel className='absolute right-0 ' additionalTransfrom={0} arrows={false} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}  >
                     {
                         gridItems.map((item)=>{
                             return(

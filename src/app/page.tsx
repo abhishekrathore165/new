@@ -79,7 +79,7 @@ export default function Home() {
           <Image src={visual} alt='main visual' width={1550} height={664} />
         </div>
         <div className="container mx-auto py-6">
-          <section id="services" className="mx-1 mt-12 sm:px-20 px-7">
+          <section id="services" className="mx-1 mt-12 sm:px-20 px-1">
             <h2 className="mb-6 text-left text-2xl  text-black md:text-5xl xl:text-[64px]">Services</h2>
             <p className="mb-8  text-[#525252] lg:w-[80%] md:w-[100%] xl:text-2xl ">
               Clients trust Us From Our Clarity. High Performance And Intuitive Functionality Across Every Stage Of The
@@ -260,7 +260,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-            <div className='w-full '> 
+            <div className='w-full  '> 
              <StudiesPorpular />
             </div>
         <div className="container py-1 ">
@@ -387,18 +387,18 @@ export default function Home() {
           </section>
 
           <section className="relative flex flex-col items-center">
-            <div className="relative z-10 mx-11 mt-12">
-              <div className="lg:h-[600px] md:h-[500px] h-[480px] w-[100%] mt-12 bg-black p-7">
+            <div className="relative z-10 sm:mx-11 mt-12">
+              <div className="lg:h-[600px] md:h-[500px] sm:h-[480px] sm:w-[100%] sm:mt-12 bg-black sm:p-7">
                 <div className="mb-12 justify-center space-y-4 text-center">
-                  <h1 className="text-2xl font-bold lg:text-5xl mt-4 text-white">EXCELLENCE</h1>
-                  <p className="text-xs text-center mx-auto text-gray-500 lg:text-xl sm:text-lg text-[1rem] px-7 sm:w-[80%] w-[100%] ">
+                  <h1 className="text-2xl font-bold lg:text-5xl sm:mt-4 mt-[2rem] text-white">EXCELLENCE</h1>
+                  <p className="text-xs text-center mx-auto text-gray-500 lg:text-xl sm:text-lg text-[1rem] px-7 sm:w-[80%] w-full ">
                     Tell us more about your business on a discovery call. We’ll discuss team structure and approach,
                     success criteria, timescale, budget, and required skill set.
                   </p>
                 </div>
                 <div className="space-y-3">
                   <div className="mb-5 flex justify-center">
-                    <img src={img13.src} className="lg:h-[13rem] md:h-[11rem] sm:h-[9rem] h-[5rem]" />
+                    <img src={img13.src} className="lg:h-[13rem] md:h-[11rem] sm:h-[9rem] h-[5rem] " />
                   </div>
 
                   <div className="flex justify-center space-x-2">
@@ -412,14 +412,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bottom-50 absolute">
-              <img src={img12.src} className='lg:h-[13rem] md:h-[11rem] sm:h-[9rem] h-[5rem]' />
+              <img src={img12.src} className='lg:h-[13rem] md:h-[11rem] sm:h-[9rem] sm:flex hidden h-[5rem]' />
             </div>
           </section>
-          <section className="my-12 overflow-x-hidden p-12 sm:px-20 px-7 text-left">
+          <section className="sm:my-12 overflow-x-hidden p-12 sm:px-20 px-2 text-left">
             <h2 className="mb-6 text-2xl font-bold text-black md:text-4xl xl:text-7xl  md:w-[80%] w-[100%]">
               <span className="text-[#C6C6C6]  w-[50%]">Say Hi!</span> And Tell Us About Your IDEA.
             </h2>
-            <p className="mb-8 text-[#525252] xl:text-2xl md:w-[75%] w-[100%]">
+            <p className="mb-8 text-[#525252] xl:text-2xl md:w-[75%] text-[12px]  w-[100%]">
               Get in touch to discuss your project or service expectations. Simply fill in the form below or send us an
               e-mail to info@Dashmicrosystem.com
             </p>
@@ -485,12 +485,12 @@ export default function Home() {
         </div>
 
         <footer className="w-full bg-[#F4F4F4] py-6 text-white sm:px-20 ">
-          <div className="container flex items-center w-full justify-between">
+          <div className="container flex items-center  w-full justify-between">
             <div className="mt-9 space-y-6 sm:p-9 ">
-              <button className="lg:w-18 md:w-[20] w-[10rem] mb-2 lg:h-8 bg-black p-2 text-[10px] font-bold  text-white">DASH MICRO SYSTEM</button>
+              <button className="lg:w-18 md:w-[20] w-[5rem] mb-2 lg:h-8 bg-black p-2 text-[8px] font-bold   text-white">DASH MICRO SYSTEM</button>
               <div className="space-y-1">
-                <p className="text-xs text-gray-500">Copyright © 2024</p>
-                <p className="text-xs text-gray-500">DASH MICRO SYSTEMS pvt ltd</p>
+                <p className="text-[8px] text-gray-500">Copyright © 2024</p>
+                <p className="text-[8px] text-gray-500">DASH MICRO SYSTEMS pvt ltd</p>
               </div>
             </div>
             <div className="sm:mr-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-8 gap-5  text-xs text-gray-500">
