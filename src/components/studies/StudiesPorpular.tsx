@@ -71,7 +71,7 @@ const StudiesPorpular = () => {
                 <button className="flex items-center justify-center bg-black text-white text-sm sm:text-base md:text-lg leading-6 uppercase px-4 py-2 md:px-6 md:py-3 rounded">
                     Explore more CASE STUDIES
                 </button>
-                <div className="bg-gray-100 absolute right-0 flex items-center justify-center p-2 rounded-full">
+                <div className="bg-gray-100 absolute right-0 flex items-center justify-center p-2 ">
                     <Image src={arrowright1} alt='arrow right' width={24} height={24} />
                 </div>
             </div>

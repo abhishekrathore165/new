@@ -138,125 +138,41 @@ export default function Home() {
               </div>
             </div>
           </section>
-
-
-          <section className="sm:mx-6 bg-white sm:px-20 px-2 py-16">
-            <div className="container mx-auto text-center xl:w-[1153px] xl:h-[337px] gap-[128px]">
-              <div className='xl:h-[161px] xl:[1153px] gap-[12px] mb-[8rem]'>
-                <h2 className="mb-6 text-left text-2xl text-black md:text-4xl lg:text-5xl xl:text-7xl">CAPABILITIES</h2>
-                <p className="text-left font-medium text-[#525252] text-base md:text-lg lg:text-xl xl:text-2xl leading-8">
-                  Clients Trust Us For Our Clarity, Structure, High Performance And Intuitive Functionality Across Every
-                  Stage Of The Software Development Process.
-                </p>
-              </div>
-              <div className="grid grid-cols-1 gap-6 md:gap-8 lg:gap-10 xl:grid-cols-3">
-                <div className='flex items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-md'>
-                  <span className="text-base leading-6 md:text-lg md:leading-7 font-semibold">
-                    ARTIFICIAL INTELLIGENCE
-                  </span>
-                  <Image src={tick} alt='tick' width={24} height={24} />
-                </div>
-
-                <div className='flex items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-md'>
-                  <span className="text-base leading-6 md:text-lg md:leading-7 font-semibold">
-                    CLOUD AND DATA
-                  </span>
-                  <hr className='border-b-2 border-gray-300 ml-4' /> {/* Light gray border */}
-                </div>
-
-                <div className='flex items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-md'>
-                  <span className="text-base leading-6 md:text-lg md:leading-7 font-semibold">
-                    INTERNET OF THINGS
-                  </span>
-                  <hr className='border-b-2 border-gray-300 ml-4' /> {/* Light gray border */}
-                </div>
-              </div>
-
-            </div>
-          </section>
-
-
         </div>
 
-        <div className="container mx-auto py-6 bg-[#F4F4F4]">
-          <section className="sm:mx-6 mt-12 xl:h-[1314px] xl:w-[1440px] lg:px-0">
-            <div className="mb-5 text-black xl:h-[913px] xl:w-[1173px]">
-              <h2 className="mb-6 text-left text-2xl text-black md:text-4xl lg:text-5xl xl:text-7xl">INDUSTRIES</h2>
-              <p className="mb-8 font-medium text-[#525252] text-base md:text-lg lg:text-xl xl:text-2xl">
-                Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
+        <section className="sm:mx-6 bg-white sm:px-20 px-2 py-16">
+          <div className="container mx-auto text-center xl:w-[1153px] xl:h-[337px] gap-[128px]">
+            <div className='xl:h-[161px] xl:[1153px] gap-[12px] mb-[8rem]'>
+              <h2 className="mb-6 text-left text-2xl text-black md:text-4xl lg:text-5xl xl:text-7xl">CAPABILITIES</h2>
+              <p className="text-left font-medium text-[#525252] text-base md:text-lg lg:text-xl xl:text-2xl leading-8">
+                Clients Trust Us For Our Clarity, Structure, High Performance And Intuitive Functionality Across Every
+                Stage Of The Software Development Process.
               </p>
-              <div className="rounded-lg bg-white p-4 xl:w-[1156.14px] xl:h-[387.35px] shadow-lg">
-                <div className="flex justify-between items-center">
-                  <h3 className="mb-4 text-xl font-medium">HEALTHCARE</h3>
-                  <img src={arrowtr.src} className="h-6" />
-                </div>
-                <div className="grid grid-cols-1 gap-10 text-xs xl:grid-cols-3 md:grid-cols-2">
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] bg-[#F4F4F4] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        LIFE SCIENCES TOOLS & SERVICES
-                      </p>
-                      <img src={chevronright.src} className="h-6 w-6" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        HEALTHCARE BOOKING
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        DATA COLLECTION
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        LIFE SCIENCES TOOLS
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        HEALTHCARE INVENTORY & REPORTING
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between gap-2 border xl:h-[85.95px] xl:w-[319.14px] md:w-[300px] p-4 font-medium">
-                    <div className='flex xl:w-[278px] xl:h-[62.51px] items-center justify-between'>
-                      <p className='text-base leading-7 font-medium flex items-center justify-center'>
-                        TOOLS & SERVICES
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            </div>
+            <div className="grid grid-cols-1 gap-[24px]  xl:grid-cols-3">
+              <div className=' xl:h-[48] xl:w-[368] sm:border-b '>
+                <span className="flex justify-between text-left text-base leading-7 font-semibold mb-5">
+                  ARTIFICIAL INTELLIGENCE
+                  <Image src={tick} alt='tick' width={24} height={24} />
+                </span>
+                <hr className='border-b-2 border-black' />
               </div>
-              <div className="mt-8 w-full space-y-3">
-                <div className="flex items-center justify-between border-b border-t xl:w-[1152px] xl:h-[84px] bg-slate-50 p-4 px-10 font-medium text-lg leading-6 text-[#161616]">
-                  ARTIFICIAL INTELLIGENCE <img src={arrowtrwhite.src} className='h-8 w-8' />
-                </div>
-                <div className="flex items-center justify-between border-b border-t xl:w-[1152px] xl:h-[84px] bg-slate-50 p-4 px-10 font-medium text-lg leading-6 text-[#161616]">
-                  DEFI <img src={arrowtrwhite.src} className='h-8 w-8' />
-                </div>
-                <div className="flex items-center justify-between border-b border-t xl:w-[1152px] xl:h-[84px] bg-slate-50 p-4 px-10 font-medium text-lg leading-6 text-[#161616]">
-                  HEALTHCARE <img src={arrowtrwhite.src} className='h-8 w-8' />
-                </div>
-                <div className="flex items-center justify-between border-b border-t xl:w-[1152px] xl:h-[84px] bg-slate-50 p-4 px-10 font-medium text-lg leading-6 text-[#161616]">
-                  FINANCE <img src={arrowtrwhite.src} className='h-8 w-8' />
-                </div>
-                <div className="flex items-center justify-between border-b border-t xl:w-[1152px] xl:h-[84px] bg-slate-50 p-4 px-10 font-medium text-lg leading-6 text-[#161616]">
-                  EDUCATION <img src={arrowtrwhite.src} className='h-8 w-8' />
-                </div>
+
+              <div className='xl:h-[48] xl:w-[368]'>
+                <span className="flex justify-between text-left text-base leading-7 font-semibold mb-5">
+                  CLOUD AND DATA
+                </span>
+                <hr className='border-b-2 mt-[13px]' />
+              </div>
+              <div className='xl:h-[48] xl:w-[368]'>
+                <span className="flex justify-between text-left text-base leading-7 font-semibold mb-5">
+                  INTERNET OF THINGS
+                </span>
+                <hr className='border-b-2 mt-[13px]' />
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <section className="bg-white py-16 text-black md:block">
           <h2 className="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium text-center text-black">
@@ -586,27 +502,27 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className='mx-auto'>
 
-           
-            <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-between xl:h-[129px] xl:w-[1150px] ">
-              <div className="mt-5 space-y-3 xl:h-[129px] xl:w-[225px] text-center sm:text-left">
-                <div className='bg-black flex items-center justify-center h-16 xl:w-[225px] xl:h-[63px]'>
-                  <button className="mb-2 p-2 text-[14px] font-black text-white">DASH MICRO SYSTEM</button>
+
+              <div className="flex flex-col sm:flex-row  items-start sm:items-center justify-between xl:h-[129px] xl:w-[1150px] ">
+                <div className="mt-5 space-y-3 xl:h-[129px] xl:w-[225px] text-center sm:text-left">
+                  <div className='bg-black flex items-center justify-center h-16 xl:w-[225px] xl:h-[63px]'>
+                    <button className="mb-2 p-2 text-[14px] font-black text-white">DASH MICRO SYSTEM</button>
+                  </div>
+                  <div className="space-y-1 xl:h-[50px] xl:w-[218px] text-center sm:text-left">
+                    <p className="text-[16px] leading-6 text-[#6F6F6F] font-normal">Copyright © 2024</p>
+                    <p className="text-[15px] leading-6 text-[#6F6F6F] font-normal">DASH MICRO SYSTEMS Pvt Ltd</p>
+                  </div>
                 </div>
-                <div className="space-y-1 xl:h-[50px] xl:w-[218px] text-center sm:text-left">
-                  <p className="text-[16px] leading-6 text-[#6F6F6F] font-normal">Copyright © 2024</p>
-                  <p className="text-[15px] leading-6 text-[#6F6F6F] font-normal">DASH MICRO SYSTEMS Pvt Ltd</p>
+                <div className="sm:mr-5 mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-5 text-xs text-gray-500 justify-center sm:justify-start">
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">HOME</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">INDUSTRIES</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">CASE STUDIES</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[15px]">ABOUT US</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">COMPANY</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">SERVICES</a>
+                  <a href="#" className="hover:underline md:text-[18px] text-[12px]">PRIVACY POLICY</a>
                 </div>
               </div>
-              <div className="sm:mr-5 mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-5 text-xs text-gray-500 justify-center sm:justify-start">
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">HOME</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">INDUSTRIES</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">CASE STUDIES</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[15px]">ABOUT US</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">COMPANY</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">SERVICES</a>
-                <a href="#" className="hover:underline md:text-[18px] text-[12px]">PRIVACY POLICY</a>
-              </div>
-            </div>
 
             </div>
           </div>
