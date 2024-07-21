@@ -12,7 +12,7 @@ import { gridItems } from '../../../constants';
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1250 },
-        items: 2,
+        items: 3,
         slidesToSlide: 1,
     },
     tablet: {
@@ -29,7 +29,9 @@ const responsive = {
 
 const StudiesPorpular = () => {
     return (
-        <section className="relative bg-[#262626] py-8 sm:py-16 px-4 sm:px-20 overflow-x-hidden">
+        <section className="relative py-8 sm:py-16 pl-5 overflow-x-hidden">
+            <div className='bg-[#262626] pl-20 py-10 pb-20'>
+                
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:py-11 mb-12 px-4 sm:px-6 lg:px-8">
             {/* Text Section */}
             <div className="text-center lg:text-left mb-8 lg:mb-0 lg:w-[848px]">
@@ -50,8 +52,10 @@ const StudiesPorpular = () => {
                 </div>
             </div>
         </div>
+        <div className='relative overflow-hidden'>
+
             <Carousel
-                className="mx-auto"
+                className="mx-auto lg:w-[1800px] "
                 additionalTransfrom={0}
                 arrows={false}
                 autoPlay={true}
@@ -61,20 +65,25 @@ const StudiesPorpular = () => {
                 responsive={responsive}
                 itemClass='item'
                 showDots={false}
-            >
+                >
                 {gridItems.map((item) => (
                     <Studies key={item.id} imgurl={item.imgSrc} title={item.title} desc={item.description} />
                 ))}
             </Carousel>
 
-            <div className="mt-12 flex items-center justify-center bg-black relative">
-                <button className="flex items-center justify-center bg-black text-white text-sm sm:text-base md:text-lg leading-6 uppercase px-4 py-2 md:px-6 md:py-3 rounded">
+                </div>
+            <div className="mt-12 relative mr-5 flex items-center justify-center w-full ">
+                <div className='flex'>
+
+                <button className="  bg-black text-white text-sm sm:text-base md:text-lg leading-6 uppercase px-4 py-2 md:px-6 md:py-3 ">
                     Explore more CASE STUDIES
                 </button>
-                <div className="bg-gray-100 absolute right-0 flex items-center justify-center p-2 ">
+                <div className="bg-gray-100  flex items-center justify-center p-4  ">
                     <Image src={arrowright1} alt='arrow right' width={24} height={24} />
                 </div>
+                </div>
             </div>
+                </div>
         </section>
     )
 }

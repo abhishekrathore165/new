@@ -9,8 +9,8 @@ interface Props {
 
 const Studies = ({ imgurl, title, desc }: Props) => {
     return (
-        <div className="flex flex-col sm:flex-row sm:space-x-4 lg:px-3 md:px-2 space-y-4 sm:space-y-0 justify-center items-center xl:w-[537px] xl:h-[630px]">
-        <div className="border rounded-lg bg-[#525252] overflow-hidden w-full xl:w-[497px] xl:h-[570px]">
+        <div className="flex flex-col sm:flex-row  border-4 bg-[#525252] border-[#525252] hover:border-[#6F6F6F] rounded-[8px] sm:space-x-4 lg:px-3 md:px-2  space-y-4 sm:space-y-0 justify-center items-center xl:w-[532px] xl:h-[626px]">
+        <div className="  overflow-hidden  w-full xl:w-[497px] xl:h-[570px]">
           <div className="mb-2">
             <Image
               src={imgurl}
@@ -20,7 +20,7 @@ const Studies = ({ imgurl, title, desc }: Props) => {
               className='w-full h-auto'
             />
           </div>
-          <div className="px-4 py-3 space-y-2">
+          <div className="px-4 py-3 pb-5 space-y-2">
             <h3 className="text-[18px] sm:text-[25px] md:text-[30px] lg:text-[35px] xl:text-[42px] font-semibold leading-tight text-[#FFFFFF]">
               {title}
             </h3>

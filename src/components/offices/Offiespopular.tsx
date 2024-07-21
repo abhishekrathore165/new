@@ -10,7 +10,7 @@ import ellip from '/public/images/ellip.svg'
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1000 },
-    items: 3,
+    items: 4,
     slidesToSlide: 1 // optional, default to 1.
   },
   tablet: {
@@ -39,9 +39,13 @@ const Offiespopular = () => {
           Region.
         </p>
       </div>
-  
+
+      <div className='overflow-hidden '>
+      <div className='relative right-20  '>
+
+    
       <Carousel
-        className='mx-4 sm:mx-8 lg:mx-[100px] xl:mx-[3rem] xl:w-[1296px] xl:h-[267px]'
+        className='mx-4 sm:mx-8 lg:mx-[100px] xl:mx-[3rem] xl:w-[1296px] '
         additionalTransfrom={0}
         arrows={false}
         autoPlay={true}
@@ -51,13 +55,15 @@ const Offiespopular = () => {
         responsive={responsive}
         itemClass='item'
         showDots={false}
-      >
+        >
         {
           officeItems.map((item) => (
             <Officess key={item.id} state={item.state} city={item.city} phone={item.phone} email={item.email} />
           ))
         }
       </Carousel>
+        </div>
+        </div>
     </div>
   </section>
   
