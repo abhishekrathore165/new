@@ -202,8 +202,8 @@ export default function Home() {
         <section className="mt-12 px-3 lg:h-[1314px] w-[1540px] bg-[#F4F4F4] flex items-center justify-center">
           <div className="mb-5 text-black lg:h-[1124.76px] lg:w-[1156.14px] ms:w-[75%] ">
             <div className=' lg:h-[162.77px] lg:w-[1038.85px]  w-full mt-3'>
-              <h2 className="mb-2 lg:text-left  text-black font-medium lg:h-[76px] lg:w-[360px]  w-full  md:h-[80%] md:text-[63px] sm:text-[40px] text-[30px]  ">INDUSTRIES</h2>
-              <p className="mb-8 font-light text-[#525252] lg:text-[23px] mx-auto lg:h-[71px] lg:w-[1038.85px]  w-[100%] text-[10px] sm:text-[15px]  md:text-[18px] leading-[35px] ">
+              <h2 className="mb-2 lg:text-left text-center  text-black font-medium lg:h-[76px] lg:w-[360px]  w-full  md:h-[80%] md:text-[63px] sm:text-[40px] text-[30px]  ">INDUSTRIES</h2>
+              <p className="mb-8 font-light text-[#525252] lg:text-[23px] mx-auto lg:h-[71px] lg:w-[1038.85px]    w-[80%] text-[10px] sm:text-[15px]  md:text-[18px] md:leading-[35px] ">
                 Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
               </p>
             </div>
@@ -211,7 +211,7 @@ export default function Home() {
 
               <div className="w-full  rounded-lg flex lg:justify-center mx-auto  bg-white py-10    shadow-lg">
                 <div className=' mx-auto w-full '>
-                  <div className="flex items-center text-center lg:justify-between justify-center mb-7 mx-auto   ">
+                  <div className="flex items-center text-left  md:justify-between justify-center mb-7 mx-auto   ">
                     <h3 className="mb-4 text-xl font-medium w-[154.55px] lg:text-[23.655px]  sm:w-[80%] lg:h-[40.19px] mx-auto   ">HEALTHCARE</h3>
                     <img src={arrowtr.src} className="lg:h-[35.72px] lg:w-[32.11px]  w-[25px] mx-auto" />
                   </div>
@@ -437,7 +437,7 @@ export default function Home() {
             </div>
               <div className='ml-[4.5rem] relative '>
                 <Image src={john} alt='john'className='' />
-                <p className='absolute top-[16px] rotate-[-6] text-[18px] left-[2.5rem] text-xl text-white opacity-95'>
+                <p className='absolute top-[16px] rotate-[-5] text-[18px] left-[2.5rem] text-xl text-white opacity-95'>
                   John Deo <br /> <span className='text-[14px] text-[#E0E0E0]'>web Developer</span>
                 </p>
               </div>
@@ -608,7 +608,7 @@ export default function Home() {
 
 
         <section className="sm:my-12 overflow-x-hidden text-left px-4">
-          <div className='xl:h-[254px]  xl:w-[1061px] w-full px-2 mb-10 mx-auto'>
+          <div className='xl:h-[254px] lg:mr-[1rem] md:mr-[.7rem] sm:mr-[.8rem] mr-0  xl:w-[1061px] w-full px-2 mb-10 mx-auto'>
             <h2 className="mb-6 font-extrabold text-black text-[32px] sm:text-[40px] md:text-[50px] lg:text-[61px]">
               <span className="text-[#C6C6C6]">Say Hi!</span> And Tell Us About Your IDEA.
             </h2>
@@ -639,10 +639,10 @@ export default function Home() {
               <div className="h-[1px] bg-[#525252]"></div>
             </div>
           </div>
-          <div className="py-3 mr-[3.5rem] xl:w-[1152px] xl:h-[88px] px-2 md:px-4 lg:px-0 border- border-b-1 mx-auto">
+          <div className="py-3 lg:mr-[2px] sm:mr-0  xl:w-[1152px] xl:h-[88px] lg:w-[965px] px-2 md:px-4 lg:px-0 border- border-b-1 mx-auto">
             <p className="font-medium text-[18px] text-[#525252]">MESSAGE</p>
             <textarea className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="Give us more details about your request so the colleagues with relevant experience can focus on your needs"></textarea>
-            <div className="h-[1px] xl:w-[1152px] bg-[#525252]"></div>
+            <div className="h-[1px] xl:w-[1152px] lg:w-[965px] bg-[#525252]"></div>
           </div>
           <div className="flex flex-col xl:flex-row mt-[4rem] justify-between px-2 md:px-4 lg:px-8 ">
             <div className="flex items-center mb-4 xl:mb-0">

@@ -54,7 +54,7 @@ const config = {
         },
       },
       rotate: {
-        '-6': '-6deg',
+        '-5': '-5deg',
       },
       borderRadius: {
         lg: "var(--radius)",
