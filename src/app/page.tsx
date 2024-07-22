@@ -60,9 +60,11 @@ import process from '/public/images/process.png'
 import ellipes from '/public/images/ellipes.svg'
 import ellipes2 from '/public/images/ellipes2.svg'
 import square from '/public/images/square.svg'
-import john from  '/public/images/john.svg'
-import circle from  '/public/images/circle.svg'
-import stike from  '/public/images/stike.svg'
+import john from '/public/images/john.svg'
+import circle from '/public/images/circle.svg'
+import ChevronRight from '/public/images/ChevronRight.png'
+import stike from '/public/images/stike.svg'
+import About from '@/components/about/About'
 
 export default function Home() {
 
@@ -201,9 +203,9 @@ export default function Home() {
 
         <section className="mt-12 px-3 lg:h-[1314px] w-[1540px] bg-[#F4F4F4] flex items-center justify-center">
           <div className="mb-5 text-black lg:h-[1124.76px] lg:w-[1156.14px] ms:w-[75%] ">
-            <div className=' lg:h-[162.77px] lg:w-[1038.85px]  w-full mt-3'>
-              <h2 className="mb-2 lg:text-left text-center  text-black font-medium lg:h-[76px] lg:w-[360px]  w-full  md:h-[80%] md:text-[63px] sm:text-[40px] text-[30px]  ">INDUSTRIES</h2>
-              <p className="mb-8 font-light text-[#525252] lg:text-[23px] mx-auto lg:h-[71px] lg:w-[1038.85px]    w-[80%] text-[10px] sm:text-[15px]  md:text-[18px] md:leading-[35px] ">
+            <div className=' lg:h-[162.77px] lg:w-[1038.85px] xl:pl-0 lg:pl-[5rem] w-full mt-3'>
+              <h2 className="mb-2 lg:text-left text-center  text-black font-medium lg:h-[76px] lg:w-[300px]  w-full  md:h-[80%] md:text-[63px] sm:text-[40px] text-[30px]  ">INDUSTRIES</h2>
+              <p className="mb-8 font-light text-[#525252] lg:text-[23px] mx-auto lg:h-[71px] lg:w-[1038.85px] w-[80%] text-[10px] sm:text-[15px]  md:text-[18px] md:leading-[35px] ">
                 Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
               </p>
             </div>
@@ -221,7 +223,7 @@ export default function Home() {
                         <p className='font-normal'>
                           HEALTHCARE BOOKING
                         </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
                     </div>
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
@@ -229,16 +231,7 @@ export default function Home() {
                         <p className='font-normal'>
                           HEALTHCARE BOOKING
                         </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
-                      </div>
-                    </div>
-
-                    <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
-                      <div className=" flex  p-5 w-full justify-between  font-medium">
-                        <p className='font-normal'>
-                          HEALTHCARE BOOKING
-                        </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
                     </div>
 
@@ -247,7 +240,7 @@ export default function Home() {
                         <p className='font-normal'>
                           HEALTHCARE BOOKING
                         </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
                     </div>
 
@@ -256,7 +249,16 @@ export default function Home() {
                         <p className='font-normal'>
                           HEALTHCARE BOOKING
                         </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
+                      </div>
+                    </div>
+
+                    <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
+                      <div className=" flex  p-5 w-full justify-between  font-medium">
+                        <p className='font-normal'>
+                          HEALTHCARE BOOKING
+                        </p>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
                     </div>
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
@@ -264,7 +266,7 @@ export default function Home() {
                         <p className='font-normal'>
                           HEALTHCARE BOOKING
                         </p>
-                        <img src={'/images/ChevronRight.svg'} className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></img>
+                        <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
                     </div>
                   </div>
@@ -375,7 +377,7 @@ export default function Home() {
                 <p className='font-medium text-[12px] leading-3 uppercase'>mongo db</p>
               </div>
             </div>
-            
+
           </div>
           <Image src={square} alt='square' width={1440} height={700} className='absolute top-[175px] bottom-0 opacity-100 ' />
         </section>
@@ -435,12 +437,12 @@ export default function Home() {
                 </p>
               </div>
             </div>
-              <div className='ml-[4.5rem] relative '>
-                <Image src={john} alt='john'className='' />
-                <p className='absolute top-[16px] rotate-[-5] text-[18px] left-[2.5rem] text-xl text-white opacity-95'>
-                  John Deo <br /> <span className='text-[14px] text-[#E0E0E0]'>web Developer</span>
-                </p>
-              </div>
+            <div className='ml-[4.5rem] relative '>
+              <Image src={john} alt='john' className='' />
+              <p className='absolute top-[16px] rotate-[-5] text-[18px] left-[2.5rem] text-xl text-white opacity-95'>
+                John Deo <br /> <span className='text-[14px] text-[#E0E0E0]'>web Developer</span>
+              </p>
+            </div>
 
             <div className="flex justify-center mb-[4rem]">
               <Image src={team} alt="team" width={643} height={128} className="w-full max-w-[643px] h-auto" />
@@ -457,7 +459,8 @@ export default function Home() {
 
         <section className="relative py-16 w-full bg-white overflow-hidden">
           <Image src={process} alt="process" className="absolute inset-0 object-cover w-full h-full z-0" />
-          <Image src={circle} alt='circle' className='absolute 2xl:left-[14rem] xl:top-[10rem] sm:top-[8rem] top-[5rem]  ' />
+          <Image src={circle} alt='circle' className='absolute 2xl:left-[14rem] xl:top-[10rem] lg:top-[8rem] lg:flex hidden  ' />
+          <Image src={stike} alt='circle' className='absolute 2xl:left-[16rem] left-[2rem] top-[22rem] lg:flex hidden    ' />
           <div className="z-10 sm:mx-11">
             <div className="text-center mb-8">
               <h1 className="text-[32px] sm:text-[40px] md:text-[50px] lg:text-[61px] xl:mr-[40rem] font-medium text-[#020611] opacity-90">
@@ -603,63 +606,67 @@ export default function Home() {
             <img src={img12.src} className="w-full h-[5rem] sm:h-[9rem] xl:flex hidden xl:h-[242px]" />
           </div>
         </section>
+        <section className='w-[1160px]  sm:h-[800px] h-[1000px] overflow-hidden'>
+          <div className=' '>
+            <div className='W-[1061px] xl:h-[260px]      space-y-[10px]'>
+              <div className='xl:w-[1061px] ld:w-[80%] xl:m-0  mx-auto text-center xl:h-[166px] w-full xl:text-left   space-y-[12px]'>
+                <h2 className="font-extrabold text-black xl:text-[64px] md:text-[40px] sm:text-[30px]  "><span className='xl:text-[64px] md:text-[40px]  sm:text-[30px]  font-extrabold text-[#C6C6C6]'>Say Hi!</span> And Tell Us About Your IDEA.</h2>
+              </div>
+              <div className='xl:w-[1061px] xl:h-[72px]  xl:text-left text-center   font-normal'>
+                <p className='xl:text-[24px] lg:text-[15px] xl:pl-0 lg:pl-[12rem] md:w-[950px] md:pl-[13rem] xl:w-full sm:w-[900px] sm:pl-[18rem]   h-[80px] lg:w-[973px]  w-[790px] pl-[24rem] '>Get in touch to discuss your project or service expectations. Simply fill in the form below or send us an
+                  e-mail to info@Dashmicrosystem.com</p>
+              </div>
+            </div>
 
+            <div className=' mt-10 w-full'>
+              <div className='xl:flex gap-4 w-[1152px] xl:h-[88px] md:h-[180px] '>
+                <div className='h-[88px] xl:w-[564px] xl:m-0 lg:w-[80%] md:w-[65%] sm:w-[50%] w-[30%] mx-auto'>
+                  <p className="font-medium text-[18px] text-[#525252]">FULL NAME*</p>
+                  <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we know how to address you" />
+                  <div className="h-[1px]  bg-[#525252]"></div>
+                </div>
+                <div className='h-[88px] xl:w-[564px] xl:m-0 lg:w-[80%] md:w-[65%] sm:w-[50%] w-[30%] mx-auto'>
+                  <p className="font-medium text-[18px] text-[#525252]">COMPANY NAME*</p>
+                  <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can tailor the services to your business needs" />
+                  <div className="h-[1px] bg-[#525252]"></div>
+                </div>
+              </div>
+              <div className='xl:flex gap-4 xl:w-[1152px] xl:h-[88px] h-[180px] '>
+                <div className='h-[88px] xl:w-[564px] xl:m-0 lg:w-[80%] md:w-[65%] sm:w-[50%] w-[30%] mx-auto'>
+                  <p className="font-medium text-[18px] text-[#525252]">EMAIL*</p>
+                  <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can respond promptly to your enquiry" />
+                  <div className="h-[1px] bg-[#525252]"></div>
+                </div>
+                <div className='h-[88px] xl:w-[564px] xl:m-0 lg:w-[80%] md:w-[65%] sm:w-[50%] w-[30%] mx-auto'>
+                  <p className="font-medium text-[18px] text-[#525252]">WHO REFERRED YOU TO US?</p>
+                  <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can say thank you" />
+                  <div className="h-[1px] bg-[#525252]"></div>
+                </div>
+              </div>
+              <div className='xl:w-[1152px] h-[88px] xl:m-0 lg:w-[80%] md:w-[65%] sm:w-[50%] w-[30%] mx-auto '>
+                <p className="font-medium text-[18px] text-[#525252]">MESSAGE</p>
+                <textarea className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="Give us more details about your request so the colleagues with relevant experience can focus on your needs"></textarea>
+                <div className="h-[1px] xl:w-[1152px] w-full bg-[#525252]"></div>
+              </div>
 
+              <div className=' xl:w-[1152px] xl:h-[72px] h-[110px] sm:gap-[2rem] gap-[1rem] xl:flex xl:flex-row items-center flex flex-col  xl:justify-between  justify-center mt-10'>
+                <div className='flex items-center  xl:h-[20px] gap-[17px] '>
+                  <input type="checkbox" className='xl:h-[16px] xl:w-[16px]' />
+                  <p className='xl:w-[573px] xl:h-[20px] xl:text-[14px] sm:text-[12px] text-[8px] '>I agree and consent to the Privacy Policy, its terms of processing of my personal data.</p>
+                </div>
+                <button className=' sm:w-[368px] sm:h-[72px] w-[200px] h-[46px] bg-black sm:text-[16px] text-[13px] uppercase text-white '>
+                  <p className='flex items-center gap-[16px] justify-center text-white'>
+                    Get In Touch
+                    <Image src={arrowright} alt="arrowright" className=" z-[121] ml-2 h-[20px] sm:h-[24px] md:h-[28px]" />
+                  </p>
 
+                </button>
+              </div>
 
-        <section className="sm:my-12 overflow-x-hidden text-left px-4">
-          <div className='xl:h-[254px] lg:mr-[1rem] md:mr-[.7rem] sm:mr-[.8rem] mr-0  xl:w-[1061px] w-full px-2 mb-10 mx-auto'>
-            <h2 className="mb-6 font-extrabold text-black text-[32px] sm:text-[40px] md:text-[50px] lg:text-[61px]">
-              <span className="text-[#C6C6C6]">Say Hi!</span> And Tell Us About Your IDEA.
-            </h2>
-            <p className="mb-8 text-[#525252] font-normal text-[16px] sm:text-[20px] md:text-[24px]">
-              Get in touch to discuss your project or service expectations. Simply fill in the form below or send us an
-              e-mail to info@Dashmicrosystem.com
-            </p>
-          </div>
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 px-2 md:px-4 lg:px-8 md:pt-8">
-            <div className='xl:h-[88px] xl:w-[564px]'>
-              <p className="font-medium text-[18px] text-[#525252]">FULL NAME*</p>
-              <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we know how to address you" />
-              <div className="h-[1px] bg-[#525252]"></div>
             </div>
-            <div className='xl:h-[88px] xl:w-[564px]'>
-              <p className="font-medium text-[18px] text-[#525252]">COMPANY NAME*</p>
-              <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can tailor the services to your business needs" />
-              <div className="h-[1px] bg-[#525252]"></div>
-            </div>
-            <div className='xl:h-[88px] xl:w-[564px]'>
-              <p className="font-medium text-[18px] text-[#525252]">EMAIL*</p>
-              <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can respond promptly to your enquiry" />
-              <div className="h-[1px] bg-[#525252]"></div>
-            </div>
-            <div className='xl:h-[88px] xl:w-[564px]'>
-              <p className="font-medium text-[18px] text-[#525252]">WHO REFERRED YOU TO US?</p>
-              <input type="text" className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="So we can say thank you" />
-              <div className="h-[1px] bg-[#525252]"></div>
-            </div>
-          </div>
-          <div className="py-3 lg:mr-[2px] sm:mr-0  xl:w-[1152px] xl:h-[88px] lg:w-[965px] px-2 md:px-4 lg:px-0 border- border-b-1 mx-auto">
-            <p className="font-medium text-[18px] text-[#525252]">MESSAGE</p>
-            <textarea className="w-full text-[12px] sm:text-[14px] md:text-[16px] rounded-lg p-2" placeholder="Give us more details about your request so the colleagues with relevant experience can focus on your needs"></textarea>
-            <div className="h-[1px] xl:w-[1152px] lg:w-[965px] bg-[#525252]"></div>
-          </div>
-          <div className="flex flex-col xl:flex-row mt-[4rem] justify-between px-2 md:px-4 lg:px-8 ">
-            <div className="flex items-center mb-4 xl:mb-0">
-              <input type="checkbox" className="mr-2" />
-              <p className="text-[14px]  sm:text-[15px] md:text-[16px] text-[#6F6F6F]">
-                I agree and consent to the Privacy Policy, its terms of processing of my personal data.
-              </p>
-            </div>
-            <div className="flex items-center justify-center xl:w-[368px] xl:h-[72px] w-full max-w-[368px] h-[48px] bg-black opacity-90 rounded-md">
-              <button className="uppercase text-white text-[14px] sm:text-[16px] md:text-[18px] px-4 py-2 flex items-center">
-                Get In Touch
-                <Image src={arrowright} alt="arrowright" className="ml-2 h-[20px] sm:h-[24px] md:h-[28px]" />
-              </button>
-            </div>
+
           </div>
         </section>
-
 
         <div className='w-full'>
 
@@ -689,7 +696,7 @@ export default function Home() {
                 </div>
               </div>
 
-            </div>  
+            </div>
           </div>
 
 
