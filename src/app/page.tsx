@@ -100,7 +100,7 @@ export default function Home() {
           <section id="services" className=" mt-12 sm:px-20  ">
             <div className='xl:w-[1153px] xl:h-auto md:w-full   gap-[12px] m-6'>
               <h2 className="mb-2 text-left text-2xl text-black md:text-4xl lg:text-5xl xl:text-[64px]">Services</h2>
-              <p className="mb-[4rem] pr-[5.25rem] text-[#525252] text-base md:text-lg lg:text-xl xl:text-2xl font-normal leading-8">
+              <p className="sm:mb-[4rem] sm:pr-[5.25rem] text-[#525252] text-base md:text-lg lg:text-xl xl:text-2xl font-normal leading-8">
                 Clients trust Us For Our Clarity, High Performance And Intuitive Functionality Across Every Stage Of The
                 Software Development Process.
               </p>
@@ -208,7 +208,7 @@ export default function Home() {
                 Clients Industry Expertise Enhances Your Innovation And Improves Your Customers’ Experience.
               </p>
             </div>
-            <div className='xl:w-[1156.14px] xl:h-[898.91px] lg:w-[1026px] mx-auto  lg:h-[700px]  '>
+              <div className='xl:w-[1156.14px] xl:h-[898.91px] lg:w-[1026px] mx-auto flex flex-col  gap-[3rem]  lg:h-[700px]  '>
 
               <div className="w-full  rounded-lg flex lg:justify-center mx-auto  bg-white py-10    shadow-lg">
                 <div className=' mx-auto w-full '>
@@ -216,7 +216,7 @@ export default function Home() {
                     <h3 className="mb-4 text-xl font-medium w-[154.55px] lg:text-[23.655px]  sm:w-[80%] lg:h-[40.19px] mx-auto   ">HEALTHCARE</h3>
                     <img src={arrowtr.src} className="lg:h-[35.72px] lg:w-[32.11px]  w-[25px] mx-auto" />
                   </div>
-                  <div className=" mx-auto lg:w-[1000px] ms:w-[80%] lg:h-[300px]  px-2 grid lg:gap-x-[5rem] md:gap-y-7 sm:gap-y-7 gap-y-7  grid-cols-1  xl:grid-cols-3 lg:grid-cols-2 ">
+                  <div className=" mx-auto lg:w-[1000px] sm:w-[80%] lg:h-[300px] w-[70%]  px-2 grid lg:gap-x-[5rem] md:gap-y-7 sm:gap-y-7 gap-y-7  grid-cols-1  xl:grid-cols-3 lg:grid-cols-2 ">
                     <div className='lg:w-[319.14px]  group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
@@ -272,10 +272,10 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mt-8 w-full space-y-3 ">
-                <div className='xl:w-[1156.14px] lg:w-[1030px] w-full lg:space-y-5 space-y-5 mx-auto lg:h-[491px]'>
-                  <div className=" border-b border-t xl:w-[1156.14px] w-full lg:h-[83px] md:h-[79px] sm:h-[65px] h-[60px]  bg-slate-50 p-4 font-medium relative">
-                    <div className='w-[90%]  flex items-center justify-between absolute top-0 bottom-0 left-[2rem] '>
+              <div className=" sm:w-full w-[100%] mx-auto space-y-3 ">
+                <div className='xl:w-[1156.14px] lg:w-[1030px] sm:w-full w-[80%] lg:space-y-5 space-y-5 mx-auto lg:h-[491px]'>
+                  <div className=" border-b border-t xl:w-[1156.14px] w-full lg:h-[83px] md:h-[79px] sm:h-[65px] h-[60px] sm:mx-0 mx-auto  bg-slate-50 p-4 font-medium relative">
+                    <div className='w-[90%]  flex items-center justify-between absolute top-0 bottom-0 sm:left-[2rem] '>
                       <p className='lg:w-[298.36px] lg:h-[36px] lg:text-[23px] font-medium '>
                         ARTIFICIAL INTELLIGENCE
                       </p>
@@ -283,21 +283,21 @@ export default function Home() {
                     </div>
                   </div>
                   <div className=" border-b border-t xl:w-[1156.14px]  md:h-[79px] sm:h-[65px] h-[60px] lg:h-[83px] bg-slate-50 p-4 font-medium relative">
-                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 left-[2rem] '>
+                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 sm:left-[2rem] '>
                       <p className='lg:w-[298.36px] lg:h-[36px] lg:text-[23px] font-medium '>DEFI</p>
                       <img src={arrowtrwhite.src} className='lg:h-[31.54px] lg:w[31.54px]'></img>
                     </div>
                   </div>
 
                   <div className=" border-b border-t xl:w-[1156.14px]  md:h-[79px] sm:h-[65px] h-[60px] lg:h-[83px] bg-slate-50 p-4 font-medium relative">
-                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 left-[2rem] '>
+                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 sm:left-[2rem] '>
                       <p className='lg:w-[298.36px] lg:h-[36px] lg:text-[23px] font-medium '>HEALTHCARE</p>
                       <img src={arrowtrwhite.src} className='lg:h-[31.54px] lg:w[31.54px]'></img>
                     </div>
                   </div>
 
                   <div className=" border-b border-t xl:w-[1156.14px]  md:h-[79px] sm:h-[65px] h-[60px] lg:h-[83px] bg-slate-50 p-4 font-medium relative">
-                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 left-[2rem] '>
+                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 sm:left-[2rem] '>
                       <p className='lg:w-[298.36px] lg:h-[36px] lg:text-[23px] font-medium '>FINANCE</p>
                       <img src={arrowtrwhite.src} className='lg:h-[31.54px] lg:w[31.54px]'></img>
                     </div>
@@ -305,7 +305,7 @@ export default function Home() {
                   </div>
 
                   <div className=" border-b border-t xl:w-[1156.14px]  md:h-[79px] sm:h-[65px] h-[60px] lg:h-[83px] bg-slate-50 p-4 font-medium relative">
-                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 left-[2rem] ' >
+                    <div className='w-[90%] flex items-center justify-between absolute top-0 bottom-0 sm:left-[2rem] ' >
                       <p className='lg:w-[298.36px] lg:h-[36px] lg:text-[23px] font-medium '>EDUCATION</p>
                       <img src={arrowtrwhite.src} className='lg:h-[31.54px] lg:w[31.54px]'></img>
                     </div>
@@ -396,42 +396,42 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-[8rem]">
-              <div className="space-y-4 max-w-[426px] mx-auto">
-                <h4 className="flex items-center gap-2 uppercase text-[16px] font-semibold">
+              <div className="space-y-4 max-w-[426px] mx-auto sm:items-start flex flex-col items-center justify-center">
+                <h4 className="flex items-center gap-2 uppercase   text-[16px] font-semibold">
                   <Image src={right} alt="right" className="w-[20px] h-[20px]" />
                   The right people
                 </h4>
-                <p className="text-[14px] sm:text-[16px] leading-6 font-normal text-[#525252]">
+                <p className="text-[14px] sm:text-[16px] text-center sm:text-left leading-6 font-normal text-[#525252]">
                   Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.
                 </p>
               </div>
 
-              <div className="space-y-4 max-w-[426px] mx-auto">
+              <div className="space-y-4 max-w-[426px] mx-auto sm:items-start flex flex-col items-center justify-center">
                 <h4 className="flex items-center gap-2 uppercase text-[16px] font-semibold">
                   <Image src={right} alt="right" className="w-[20px] h-[20px]" />
                   The right people
                 </h4>
-                <p className="text-[14px] sm:text-[16px] leading-6 font-normal text-[#525252]">
+                <p className="text-[14px] sm:text-[16px] text-center sm:text-left leading-6 font-normal text-[#525252]">
                   Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.
                 </p>
               </div>
 
-              <div className="space-y-4 max-w-[426px] mx-auto">
+              <div className="space-y-4 max-w-[426px] mx-auto sm:items-start flex flex-col items-center justify-center">
                 <h4 className="flex items-center gap-2 uppercase text-[16px] font-semibold">
                   <Image src={right} alt="right" className="w-[20px] h-[20px]" />
                   The right people
                 </h4>
-                <p className="text-[14px] sm:text-[16px] leading-6 font-normal text-[#525252]">
+                <p className="text-[14px] sm:text-[16px] text-center sm:text-left leading-6 font-normal text-[#525252]">
                   Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.
                 </p>
               </div>
 
-              <div className="space-y-4 max-w-[426px] mx-auto">
+              <div className="space-y-4 max-w-[426px] mx-auto sm:items-start flex flex-col items-center justify-center">
                 <h4 className="flex items-center gap-2 uppercase text-[16px] font-semibold">
                   <Image src={right} alt="right" className="w-[20px] h-[20px]" />
                   The right people
                 </h4>
-                <p className="text-[14px] sm:text-[16px] leading-6 font-normal text-[#525252]">
+                <p className="text-[14px] sm:text-[16px] text-center sm:text-left leading-6 font-normal text-[#525252]">
                   Our rigorous hiring process ensures only rock-solid, skilled candidates make it through.
                 </p>
               </div>
@@ -457,7 +457,7 @@ export default function Home() {
         </section>
 
         <section className="relative py-16 w-full bg-white overflow-hidden">
-          <Image src={process} alt="process" className="absolute inset-0 object-cover w-full h-full z-0" />
+          <Image src={process} alt="process" className="absolute inset-0 object-cover w-full h-full " />
           <Image src={circle} alt='circle' className='absolute 2xl:left-[14rem] xl:top-[10rem] lg:top-[8rem] lg:flex hidden  ' />
           <Image src={stike} alt='circle' className='absolute 2xl:left-[16rem] left-[2rem] top-[22rem] lg:flex hidden    ' />
           <div className="z-10 sm:mx-11">
@@ -515,7 +515,7 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center xl:mr-[39rem] mt-12">
-              <div className="flex items-center bg-black text-white rounded-md px-4 py-2 space-x-4">
+              <div className="flex items-center bg-black z-[121] text-white rounded-md px-4 py-2 space-x-4">
                 <button className="uppercase text-[16px] sm:text-[18px] md:text-[20px] font-semibold leading-6">
                   Get In Touch
                 </button>
@@ -605,14 +605,14 @@ export default function Home() {
             <img src={img12.src} className="w-full h-[5rem] sm:h-[9rem] xl:flex hidden xl:h-[242px]" />
           </div>
         </section>
-        <section className='w-[1160px]  sm:h-[800px] h-[1000px] overflow-hidden'>
+        <section className='w-[1160px]  sm:h-[800px] h-[727px] overflow-hidden'>
           <div className=' '>
             <div className='W-[1061px] xl:h-[260px]      space-y-[10px]'>
               <div className='xl:w-[1061px] ld:w-[80%] xl:m-0  mx-auto text-center xl:h-[166px] w-full xl:text-left   space-y-[12px]'>
                 <h2 className="font-extrabold text-black xl:text-[64px] md:text-[40px] sm:text-[30px]  "><span className='xl:text-[64px] md:text-[40px]  sm:text-[30px]  font-extrabold text-[#C6C6C6]'>Say Hi!</span> And Tell Us About Your IDEA.</h2>
               </div>
               <div className='xl:w-[1061px] xl:h-[72px]  xl:text-left text-center   font-normal'>
-                <p className='xl:text-[24px] lg:text-[15px] xl:pl-0 lg:pl-[12rem] md:w-[950px] md:pl-[13rem] xl:w-full sm:w-[900px] sm:pl-[18rem]   h-[80px] lg:w-[973px]  w-[790px] pl-[24rem] '>Get in touch to discuss your project or service expectations. Simply fill in the form below or send us an
+                <p className='xl:text-[24px] lg:text-[15px] xl:pl-0 lg:pl-[12rem] md:w-[950px] md:pl-[13rem] xl:w-full sm:w-[900px] sm:pl-[18rem] h-[80px] lg:w-[973px]  w-[766px] pl-[25rem] '>Get in touch to discuss your project or service expectations. Simply fill in the form below or send us an
                   e-mail to info@Dashmicrosystem.com</p>
               </div>
             </div>
