@@ -220,7 +220,7 @@ export default function Home() {
                     <div className='lg:w-[319.14px]  group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
-                          HEALTHCARE BOOKING
+                        LIFE SCIENCES TOOLS & SERVICES
                         </p>
                         <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
@@ -237,7 +237,8 @@ export default function Home() {
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
-                          HEALTHCARE BOOKING
+                        DATA COLLECTION
+
                         </p>
                         <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
@@ -246,7 +247,7 @@ export default function Home() {
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
-                          HEALTHCARE BOOKING
+                        LIFE SCIENCES TOOLS
                         </p>
                         <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
@@ -255,7 +256,7 @@ export default function Home() {
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
-                          HEALTHCARE BOOKING
+                        HEALTHCARE INVENTORY & REPORTING
                         </p>
                         <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>
@@ -263,7 +264,7 @@ export default function Home() {
                     <div className='lg:w-[319.14px] group lg:h-[85.95px] hover:bg-[#F4F4F4] border flex items-center '>
                       <div className=" flex  p-5 w-full justify-between  font-medium">
                         <p className='font-normal'>
-                          HEALTHCARE BOOKING
+                        TOOLS & SERVICES
                         </p>
                         <Image src={ChevronRight} alt='chevronright' className="hidden group-hover:flex lg:h-[23.63px] lg:w-[23.63px]"></Image>
                       </div>

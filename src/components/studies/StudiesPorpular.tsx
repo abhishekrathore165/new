@@ -29,7 +29,7 @@ const responsive = {
 
 const StudiesPorpular = () => {
     return (
-        <section className="relative py-8 sm:py-16 pl-5 overflow-x-hidden">
+        <section className="relative py-8 sm:py-16  overflow-x-hidden">
             <div className='bg-[#262626] pl-20 py-10 pb-20'>
                 
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:py-11 mb-12 px-4 sm:px-6 lg:px-8">
@@ -55,7 +55,7 @@ const StudiesPorpular = () => {
         <div className='relative overflow-hidden'>
 
             <Carousel
-                className="mx-auto lg:w-[1800px] "
+                className=" mx-auto lg:w-[1800px] "
                 additionalTransfrom={0}
                 arrows={false}
                 autoPlay={true}

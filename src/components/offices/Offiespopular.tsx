@@ -7,23 +7,30 @@ import { officeItems, OfficesItem } from '../../../constants';
 import Image from 'next/image';
 import ellip from '/public/images/ellip.svg'
 
-const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1000 },
-    items: 4,
-    slidesToSlide: 1 // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1000, min: 764 },
-    items: 2,
-    slidesToSlide: 1 // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 764, min: 0 },
-    items: 1,
-    slidesToSlide: 1 // optional, default to 1.
-  }
-};
+
+  const responsive = {
+    largeDesktop: {
+      breakpoint: { max: 3000, min: 1255 },
+      items: 4,
+      slidesToSlide: 1
+    },
+    desktop: {
+      breakpoint: { max: 1255, min: 1000 },
+      items: 3,
+      slidesToSlide: 1 
+    },
+    tablet: {
+      breakpoint: { max: 1000, min: 764 },
+      items: 2,
+      slidesToSlide: 1 
+    },
+    mobile: {
+      breakpoint: { max: 764, min: 0 },
+      items: 1,
+      slidesToSlide: 1 
+    }
+  };
+  
 
 const Offiespopular = () => {
   return (
@@ -41,7 +48,7 @@ const Offiespopular = () => {
       </div>
 
       <div className='overflow-hidden '>
-      <div className='relative right-20  '>
+      <div className='relative sm:right-20 right-0  '>
 
     
       <Carousel
