@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow from '/public/images/arrow.svg'
 import arrowleft from '/public/images/arrowleft.svg'
-import arrowright1 from '/public/images/arrowright.svg'
+import blackarrow from '/public/images/blackarrow.svg'
 import Image from 'next/image';
 import Studies from './Studies';
 import { gridItems } from '../../../constants';
@@ -79,7 +79,7 @@ const StudiesPorpular = () => {
                     Explore more CASE STUDIES
                 </button>
                 <div className="bg-gray-100  flex items-center justify-center p-4  ">
-                    <Image src={arrowright1} alt='arrow right' width={24} height={24} />
+                    <Image src={blackarrow} alt='arrow right' width={24} height={24} />
                 </div>
                 </div>
             </div>
