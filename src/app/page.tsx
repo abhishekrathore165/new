@@ -64,7 +64,6 @@ import john from '/public/images/john.svg'
 import circle from '/public/images/circle.svg'
 import ChevronRight from '/public/images/ChevronRight.png'
 import stike from '/public/images/stike.svg'
-import About from '@/components/about/About'
 
 export default function Home() {
 
